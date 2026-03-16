@@ -1,19 +1,14 @@
-# Ignore datasets
+# Ignore raw and processed data files
 data/raw/**
 data/processed/**
 
-# Keep the folders themselves
-!data/raw/
-!data/processed/
+# Keep the folder structure
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 
-# Ignore CSV files
-*.csv
-
-# Python cache
+# Python / Jupyter cache
 __pycache__/
 .ipynb_checkpoints/
 
-# system files
+# System files
 .DS_Store
