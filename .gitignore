@@ -1,10 +1,15 @@
 # Ignore datasets
-data/
+data/raw/**
+data/processed/**
 
-# Ignore CSV and Excel files
+# Keep the folders themselves
+!data/raw/
+!data/processed/
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Ignore CSV files
 *.csv
-*.xlsx
-*.zip
 
 # Python cache
 __pycache__/
